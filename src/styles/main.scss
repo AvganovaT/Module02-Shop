@@ -38,6 +38,8 @@ body {
     overflow-x: hidden;
 }
 
+/* HEADER */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -209,6 +211,8 @@ body {
     }
 }
 
+/* LOGO */
+
 .logo {
     display: block;
     background-image: url(../images/logo.svg);
@@ -238,6 +242,8 @@ body {
     }
 }
 
+/* CONTAINER */
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -247,6 +253,8 @@ body {
         max-width: 600px;
     }
 }
+
+/* MAIN */
 
 .main {
     position: relative;
@@ -535,6 +543,8 @@ body {
     }
 }
 
+/* TITLE */
+
 .title {
     font-family: $font-cormorant;
     font-weight: 700;
@@ -563,6 +573,8 @@ body {
     }
 }
 
+/* DESCRIPTION */
+
 .description {
     margin: 0;
     line-height: 1.5;
@@ -588,6 +600,8 @@ body {
         }
     }
 }
+
+/* LINK */
 
 .link {
     color: $white;
@@ -618,6 +632,8 @@ body {
     }
 }
 
+/* OFFER */
+
 .offer {
     padding-top: 2rem;
     padding-bottom: 12.8rem;
@@ -636,6 +652,8 @@ body {
     }
 }
 
+/* SLIDER */
+
 .slider {
     overflow: hidden;
     padding-top: 9.4rem;
@@ -650,6 +668,9 @@ body {
         padding-bottom: 7rem;
     }
 }
+
+
+/* SWIPER */
 
 .swiper {
     overflow: initial;
@@ -883,6 +904,8 @@ body {
     height: 8px;
 }
 
+/* COUNTER */
+
 .counter {
     display: flex;
     @media (max-width: $r_tab) {
@@ -934,6 +957,8 @@ body {
         }
     }
 }
+
+/* ABOUT */
 
 .about {
     padding-top: 3.7rem;
@@ -1047,6 +1072,8 @@ body {
         }
     }
 }
+
+/* TRENDS */
   
 .trends {
     padding-top: 4rem;
@@ -1061,6 +1088,8 @@ body {
         }
     }
 }
+
+/* CATALOG */
 
 .catalog {
     padding-top: 11rem;
@@ -1117,6 +1146,8 @@ body {
         }
     }
 }
+
+/* CATEGORY */
 
 .category {
     list-style-type: none;
@@ -1297,6 +1328,8 @@ body {
     }
 }
 
+/* DELIVERY */
+
 .delivery {
     padding-bottom: 8rem;
     @media (max-width: $r_mob_360) {
@@ -1412,6 +1445,8 @@ body {
         }
     }
 }
+
+/* CONTACT */
 
 .contact {
     padding-top: 10rem;
@@ -1556,6 +1591,8 @@ body {
     }
 }
 
+/* CARD */
+
 .card {
     border: 2px solid rgba($green, 0.4);
     padding: 3.2rem 5.8rem 4rem;
@@ -1631,6 +1668,8 @@ body {
         border-bottom: 1px solid #ecedec;
     }
 }
+
+/* FOOTER */
 
 footer {
     border-top: 1px solid #d4d6cf;
@@ -1806,6 +1845,8 @@ footer {
         }
     }
 }
+
+/* ANIMATION */
 
 @keyframes shadow {
     0% {
