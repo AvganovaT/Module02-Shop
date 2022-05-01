@@ -534,7 +534,7 @@ body {
         @media (max-width: $r_desk_full_1750) {
             top: 120px;
             width: 9.8rem;
-            right: -50px;
+            right: -25px;
         }
         @media (max-width: $r_mob_500) {
             top: 88px;
@@ -699,7 +699,7 @@ body {
                 height: 400px;
             }
             @media (max-width: $r_mob_500) {
-                height: 240px;
+                height: 255px;
                 text-align: center;
                 padding: 2.2rem 1.7rem;
             }
@@ -744,7 +744,7 @@ body {
             @media (max-width: $r_mob_500) {
                 font-size: 1.75rem;
                 margin-top: 0;
-                margin-bottom: 2rem;
+                margin-bottom: 0.5rem;
             }
         }
         &__hover {
@@ -1204,6 +1204,7 @@ body {
     @media (max-width: $r_mob_500) {
         display: block;
         text-align: center;
+        overflow: hidden;
     }
     &__link {
         padding: 2.4rem 0;
